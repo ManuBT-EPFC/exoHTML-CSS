@@ -2,7 +2,7 @@ body{
 	background-color: white;
 	width:100%;
 	height:100%;
-     animation-duration:100000s;
+     animation-duration:1000000s;
      animation-name: hakunamatata; 
 
 }
@@ -35,7 +35,7 @@ img {
 	height: auto;
 	position:absolute;
 	animation-name:hypno;
-	animation-duration: 100000s;
+	animation-duration: 1000000s;
 }
 
 /* animation-delay:1s;
