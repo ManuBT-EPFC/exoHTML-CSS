@@ -1,0 +1,57 @@
+body{
+	background-color: white;
+	width:800px;
+	height:800px;
+     animation-delay:1s;
+     animation-duration: 10s;
+     animation-name: hakunamatata;
+     animation-timing-function:ease-out;  
+
+}
+
+@keyframes hakunamatata  {
+	o% { width:50px;
+	     height: 50px;
+	     background-color: orange; }
+	20% {width:200px;
+	     height:200px;
+	     background-color: blue;}
+
+	80% {width: 100px;
+		 height: 100px;
+		 background-color: red;}
+	
+	100%{width: 150px;
+		height: 150px;
+	    background-color: pink;}
+
+#chat {
+	position: absolute;
+	 top:50%;
+	 left:50%;
+	
+/* animation-delay:1s;
+     animation-duration: repeat;
+     animation-name: chat;
+     animation-timing-function: ease-in-out;*S/
+     
+     
+
+ }  
+
+
+
+@keyframes chat { 
+     from{
+     	 top:100%;
+         left:0%;
+     }
+
+
+     to{
+     	top:0%;
+     	left:100%;}
+
+}
+
+
