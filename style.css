@@ -1,28 +1,71 @@
-body{
-	background-color: white;
-	width:100%;
-	height:100%;
-     animation-duration:40s;
-     animation-name: hakunamatata; 
-     animation-iteration-count: infinite;
- }
 
-@keyframes hakunamatata  {
-	0% { background-color: black;}
-	10% { background-color: yellow;}
-	20% {background-color:red;}
-	30% {background-color:gold;}
-	40% {background-color: grey;}
-	50% {background-color: brown;}
-	60% {background-color: orange;}
-	70% {background-size: green;}
-	80% {background-color: blue;}
-	90% {background-color: turquoise;}
-	100%{background-color:pink;}
-
-.hommes td {
-	color: green;
+*{
+  margin: 0;
+  padding: 0;
 }
-.femmes td {
-	color: purple;
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  animation: bkg-color 3s linear infinite;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+img{
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+  animation: yeux 5s alternate infinite;
+}
+
+table{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border: 1px black solid;
+}
+
+td, th{
+  border: 1px solid black;
+}
+
+tr:nth-child(odd){
+  background-color: gray;
+}
+
+.M{
+    color: green;
+}
+
+.F{
+  color: purple;
+}
+
+@keyframes yeux{
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(1150px);
+  }
+}
+
+
+@keyframes bkg-color {
+  0%{
+    background-color: orange;
+  }
+  25%{
+    background-color: red;
+  }
+  50%{
+    background-color: blue;
+  }
+  75%{
+    background-color: black;
+  }
 }
